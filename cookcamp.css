@@ -1,164 +1,444 @@
-<!<!DOCTYPE html>
-<html lang="ja">
-    
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="cookcamp.css">
-    </head>
-    
-    <body>
-        
-        <header>
-            <div class="header">
-            <div class="header-logo">
-            <h1>
-                <img src="cookcamp/logo.png" alt="Cookcamp">
-            </h1>
-             <p>誰でも作れる簡単料理レシピサイト</p>
-            </div>
-            <div class="form">
-            <input type="search" placeholder="料理名・食材名で検索"></imput>
-            <input type="submit" Value="検索">
-            </div>
-            <nav>
-            <ul>
-                <li class="new"><a href="#">新着レシピ</a></li>
-                <li><a href="#">料理から検索</a></li>
-                <li><a href="#">食材から検索</a></li>
-                <li><a href="#">旬の料理特集</a></li>
-                <li><a href="#">ランキング</a></li>
-            </ul>
-            </nav>
-            </div>
-        </header>
-        
-        <div class="wrapper">
-        <div class="mainimage">
-                <img src="cookcamp/mainView.jpg" alt="料理"  class="mainimage">
-        </div>
-            
-        <div class="left">
-        <div class="left-top">
-            <h2>料理別レシピ</h2>
-            <ul>
-                <li class="border"><a class="dish" href="#">和食</a></li>
-                <li class="border"><a class="dish" href="#">イタリアン</a></li>
-                <li class="border"><a class="dish" href="#">フレンチ</a></li>
-                <li class="border"><a class="dish" href="#">中華</a></li>
-                <li class="border"><a class="dish" href="#">アジアン</a></li>
-                <li class="border"><a class="dish" href="#">エスニック</a></li>
-                <li class="border"><a class="dish" href="#">麺</a></li>
-                <li><a class="dish" href="#">デザート</a></li>
-            </ul>
-        </div>
-        <div class="left-bottom">
-            <h2>目的別レシピ</h2>
-            <ul>
-                <li class="border"><a class="dish" href="#">お弁当</a></li>
-                <li class="border"><a class="dish" href="#">簡単おかず</a></li>
-                <li class="border"><a class="dish" href="#">ダイエット</a></li>
-                <li class="border"><a class="dish" href="#">ベビーフード</a></li>
-                <li class="border"><a class="dish" href="#">節約食材</a></li>
-                <li class="border"><a class="dish" href="#">アレルギー</a></li>
-                <li><a class="dish" href="#">シニア料理</a></li>
-            </ul>
-        </div>
-        </div>
-        
-        <div class="main">
-        <div class="main-top">
-            <h2>新着レシピ</h2>
-            <!--- pにClassをしていする形だと出来ないのは？？ --->
-            <div class="main-lecipi">
-                <img src="cookcamp/newRecipes1.jpg">
-                <p>季節菜の彩前菜<p>
-            </div>
-            <div class="main-lecipi">
-                <img src="cookcamp/newRecipes2.jpg">
-                <p>簡単かぼちゃスープ<p>
-            </div>
-            <div class="main-lecipi">
-                <img src="cookcamp/newRecipes3.jpg">
-                <p>ヘルシー米粉パン<p>
-            </div>
-            <div class="main-lecipi">
-                <img src="cookcamp/newRecipes4.jpg">
-                <p>ぷりぷり海老料理<p>
-            </div>
-            <div class="main-lecipi">
-                <img src="cookcamp/newRecipes5.jpg">
-                <p>かんたん鴨南蛮<p>
-            </div>
-        </div>
-        
-        <div class="main-center">
-             <h2>今だからこそ見直したい「和食」</h2>
-             <div class="centerlecipi">
-             <img src="cookcamp/topics.jpg">
-             <div class="center-lecipi">
-                <p>普段、私たちが何気なく口にしている和食ですが、その基本は一汁一菜。ごはん、味噌汁、お漬物の他、主菜（魚またはお肉）、副菜としての季節毎の野菜と豆類で構成されています。<br>
-昔方「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨味や栄養価が最高になったところでいただいて、効率よく栄養を取り風などの予防をしましょうね、ということです。<br><br>
-それでは各季節毎の旬の野菜について調べてみましょう。</p>
-            <a href="#">続きを読む</a>
-            </div>
-            </div>
-            </div>
-            
-            <div class="clearfix"></div>
-            
-         <div class="main-bottom">
-            <h2>簡単！おすすめレシピ</h2>
-            <div class="bottomlesipi1">
-            <img src="cookcamp/pushRecipes1.jpg">
-            <div class="bottom-lecipi1">
-                <h3>季節の食材～春～</h3>
-                <p>新玉ねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味がよくみずみずしいのが特徴です。<br><br>
-                それでは春野菜を使ったレシピを紹介しましょう。</p>
-                <a href="#">続きを読む</a>
-           </div>
-           </div>
-           <div class="bottomlesipi2">
-               <img src="cookcamp/pushRecipes2.jpg">
-            <div class="bottom-lecipi2">
-                <h3>春野菜を食べて花粉症予防！？</h3>
-                <p>春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材をとると少し緩和されるんです。<br><br>
-                さて、その食材とは・・・？</p>
-                <a href="#">続きを読む</a>
-            </div>
-            <div class="clearfix"></div>
-            </div>
-        </div>
-        </div>
-        
-        
-        <div class="right">
-        <div class="right-top">
-            <a href="#"><img src="cookcamp/right1.png"></a>
-        </div>
-        <div class="right-bottom">
-            <a href="#"><img src="cookcamp/right2.png"></a>
-        </div>
-        </div>
-        </div>
-        
-        
-        <footer>
-            <div class="footer">
-            <nav>
-                <ul>
-                    <li><a href="#">サイトマップ</a></li>
-                    <li><a href="#">プライバシーポリシー</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
-                    <li class="footerline"><a href="#">ご利用ガイド</a></li>
-                </ul>
-            </nav>
-            <p>
-                Copyright &copy;  CodeCamp All Right Reserved.
-            </p>
-            </div>
-        </footer>
-    </body>
-    
-</html>
+@charset"UTF-8";
+
+/*----------------------------
+リセットCSSここから
+----------------------------*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*----------------------------
+リセットCSSここまで
+----------------------------*/
+body {
+    background-color: #f5f5dd;
+    color: black;
+}
+
+.wrapper {
+     width: 960px;
+     margin: 0 auto;
+}
+
+/*----------------------------
+  headerここから
+----------------------------*/
+
+header {
+    width: 100%;
+    height: 106px;
+    background-color: #fff;
+    border-bottom: 1px dotted #c7cacb;
+    min-width: 960px;
+}
+
+.header {
+     width: 960px;
+     margin: 0 auto;
+}
+
+.header-logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.header-logo p {
+    font-size:13px;
+    padding:5px 0;
+}
+
+.form {
+    float: right;
+    margin-top: 20px;
+}
+
+.header nav  {
+    clear: both;
+}
+
+.header nav ul li {
+    float: left;
+    margin: 10px 0;
+    width: 20%;
+}
+
+.header nav ul li {
+    float: left;
+    margin: 10px 0;
+    width: 20%;
+}
+
+.header nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #5c3b29;
+    border-left: 1px dotted #bdbcbc;
+    display: block;
+}
+
+.header .new a {
+    border-left: none;
+}
+
+/*----------------------------
+  mainimageここから
+----------------------------*/
+.mainimage {
+    width:960px;
+    background-color: #67ea89;
+    clear: both;
+}
+
+/*----------------------------
+  leftここから
+----------------------------*/
+
+.left {
+    float: left;
+}
+
+.left-top {
+    width:200px;
+    background-color: #f9f8f1;
+    margin-top:15px;
+    padding-top: 3px;
+}
+
+.left-top li, .left-bottom li {
+    margin-top: 7px;
+    padding-bottom: 8px;
+    list-style-type: none;
+    width: 200px;
+    background-image: url(cookcamp/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+}
+.left-top ul li a,.left-bottom ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left:30px;
+    display: block;
+}
+
+h2 {
+    background-color: #99bb22;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    color: #fff;
+   padding-left:40px; 
+   margin:5px 10px 15px;
+   background-image: url(cookcamp/dish.png);
+   background-repeat: no-repeat;
+   background-position:  15px;
+   font-weight: normal;
+}
+
+.dishlast a {
+    border-bottom:none;
+}
+
+.border{
+     border-bottom:1px dotted #b3b1b3;
+}
+
+.left-bottom {
+    width:200px;
+    background-color: #f9f8f1;
+    margin-top:10px;
+    padding-top: 3px;
+}
+
+
+/*----------------------------
+    mainここから）
+----------------------------*/
+.main {
+    float: left;
+}
+
+.main-top {
+    width:590px;
+    height: 170px;
+    margin-top:15px;
+    margin-left: 8px;
+    background-color: #f9f8f1;
+    padding-top: 3px;
+}
+
+.main-lecipi {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-top p {
+    font-size:12px;
+    padding-top: 5px;
+}
+
+.center-lecipi a {
+    margin-left: 220px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ee7742;
+    background-image: url(cookcamp/arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: 5% 30%;
+}
+
+.main-center {
+    width:590px;
+    height: 260px;
+    clear: both;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    background-color: #f9f8f1;
+    padding-top: 3px;
+}
+
+.main-center img {  
+   float: left;
+   margin: 0 0 10px 15px;
+}
+
+.center-lecipi {
+    float: right;
+    width: 330px;
+    height: 200px;
+    font-size: 14px;
+}
+
+.center-lecipi p {
+    text-indent: 1em;
+}
+.center-lecipi img {
+    padding-right: 10px;
+    margin:0px;
+}
+
+.main-bottom {
+    width:590px;
+    margin-left: 8px;
+    background-color: #f9f8f1;
+    clear: both;
+    padding-top: 3px;
+}
+.main-bottom img,.bottomlesipi2 img{
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bottomlesipi1 {
+    margin-bottom: 10px;
+    height: 120px;
+}
+.bottom-lecipi1 {
+    float: right;
+    width: 330px;
+}
+
+.bottom-lecipi1 p,.bottom-lecipi2 p {
+    padding-top: 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    text-indent: 1em;
+}
+
+.bottomlesipi2 {   
+    clear: both;
+    margin-top: 20px; /*効かない*/
+    margin-bottom: 20px;
+    height: 140px;
+}
+
+h3 {
+    color: #5c3b29;
+}
+
+.bottom-lecipi2 {
+    float: right;
+    width: 330px;
+}
+
+.bottom-lecipi1 a, .bottom-lecipi2 a {
+    margin-left: 220px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ee7742;
+    background-image: url(cookcamp/arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: 5% 30%;
+}
+
+.clearfix {
+    clear: both; 
+}
+/*----------------------------
+   rightここから
+----------------------------*/
+
+.right {
+    float: right;
+}
+.right-top {
+    width:154px;
+    height: 351px;
+    margin-top: 15px;
+    display: block;
+}
+
+.right-bottom {
+    width:154px;
+    height: 351px;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*----------------------------
+   footerここから
+----------------------------*/
+footer {
+    width: 100%; 
+    height: 80px;
+    background-color: #fff;
+    clear: both;
+    padding-top: 20px;
+    border-top: 1px dotted #c7cacb;
+    min-width: 960px;
+}
+
+.footer {
+    width:960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer nav  {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+
+.footer nav ul li {
+    float: left;
+    margin: 10px;
+    border-right: 1px dotted #bdbcbc;
+   
+}
+.footer  nav ul li a {
+    text-decoration: none;
+    font-size:13px;
+   
+    padding-right: 15px;
+    color: #5c3b29;
+}
+
+.footer p {
+    clear: both;
+    font-size:12px;
+    margin-top: 10px;
+}
+
+.footer .footerline  {
+    border-right:none;
+}
+
